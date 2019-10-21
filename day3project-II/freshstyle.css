@@ -1,0 +1,238 @@
+body
+{
+
+}
+.left1
+{
+  height: 100%;
+  width: 20%;
+  background-color: black;
+  float: left;
+}
+.y1
+{
+  height: 69.7%; /* Full-height: remove this if you want "auto" height */
+  width: 19.7%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 25%; /* Stay at the top */
+  lef: 2%;
+  background-color: black; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+.y1 a
+{
+  padding: 6px 8px 6px 16px;
+ text-decoration: none;
+ font-size: 20px;
+ color: #818181;
+ display: block;
+}
+.y1 a:hover
+{
+color: #f1f1f1;
+}
+.right
+{
+  float: left;
+  width: 80%;
+  height: 100%;
+  background-color: white;
+}
+.b1 button
+{
+  margin-left: 2%;
+  margin-top: 1%;
+  background-color: Green;
+  border:none;
+  color:white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.b1 button:hover
+{
+  background-color: white;
+  color:black;
+}
+.b2 button
+{
+  margin-left: 17%;
+  margin-top: -4.2%;
+  background-color: white;
+  border:none;
+  color:black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.b2 button:hover
+{
+  background-color: white;
+  color:black;
+  border-color: white;
+
+}
+
+.b3 select
+{
+  position: absolute;
+  left: 65%;
+  top: 3.5%;
+  background-color: green;
+  border:none;
+  color:black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.b3 select:hover
+{
+  background-color: white;
+  color:black;
+}
+.b4 select
+{
+  position: absolute;
+  left: 80%;
+  top: 3.5%;
+  background-color: green;
+  border:none;
+  color:black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.b4 select:hover
+{
+  background-color: white;
+  color:black;
+}
+.r1
+{
+  border:1px solid #E0E0D1;
+  margin-top: 1%;
+}
+.r2
+{
+  text-align: left;
+  margin-left:2%;
+}
+.c1
+{
+  position: absolute;
+  left:20%;
+  top:20%;
+  font-size: 15px;
+  margin: 2%;
+  border:1.5px solid #E0E0D1;
+  text-align: center;
+  background-color: white;
+  padding:15px 100px;
+  cursor: pointer;
+  border-radius: 5px;
+  color:black;
+}
+.c2
+{
+  position: absolute;
+  left:44.5%;
+  top:20%;
+  font-size: 15px;
+  margin: 2%;
+  border:1.5px solid #E0E0D1;
+  text-align: center;
+  background-color: white;
+  padding:15px 100px;
+  cursor: pointer;
+  border-radius: 5px;
+  color:black;
+}
+.c3
+{
+  position: absolute;
+  left:71%;
+  top:20%;
+  font-size: 15px;
+  margin: 2%;
+  border:1.5px solid #E0E0D1;
+  text-align: center;
+  background-color: white;
+  padding:15px 140px;
+  cursor: pointer;
+  border-radius: 5px;
+  color:black;
+}
+.s1 input[type=text]
+{
+  position: absolute;
+  left:20%;
+  top:32.5%;
+  font-size: 15px;
+  padding:5px 15px;
+  border: 1px solid #ccc;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 2px;
+  margin: 2%;
+}
+ .s1 p{
+   position: absolute;
+   top:35%;
+   right: 12%
+ }
+ .s2
+ {
+   position: absolute;
+   top:37.3%;
+   right:8%;
+   padding: 2px 3px;
+   border-radius: 1px;
+   color:black;
+ }
+.s3
+{
+  position: absolute;
+  top:35%;
+  right:4.5%;
+}
+table, td, th {
+  padding: 10px;
+  text-align: left;
+      background-color: #f2f2f2;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 97%;
+  margin-top: 14%;
+  margin-left: 10px;
+  border:1.5px solid #E0E0D1;
+  border-radius: 25px;
+  padding: 15px 30px;
+}
+ table tr{
+  border: 2px solid #E0E0D1;
+}
+
+th {
+  background-color: #f2f2f2;
+
+  height: 50px;
+}

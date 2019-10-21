@@ -1,0 +1,41 @@
+main{
+  width: 100%;
+  height:100%;
+}
+.pic
+{
+  position: absolute;
+  top:-5em;
+  width:60em;
+  right:-2em;
+  height: 50em;
+  left:31em;
+}
+.label
+{
+  position: absolute;
+  top:2em;
+  width: 40em;
+  float: left;
+  left: 7em;
+  height: 20em;
+}
+.credentials
+{
+  position: absolute;
+  margin-top: 5em;
+  width: 40em;
+  float: left;
+  left: 1em;
+  height: 20em;
+  font-family: 'Ubuntu',sans-serif;
+
+}
+input[type=text], input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
